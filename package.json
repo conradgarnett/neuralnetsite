@@ -1,0 +1,11 @@
+{
+  "name": "neural-network-math-visualizer",
+  "version": "1.0.0",
+  "description": "Interactive visualizer for the math of a small neural network: forward pass, backpropagation, and gradient descent.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "node tests/run-tests.mjs"
+  }
+}
